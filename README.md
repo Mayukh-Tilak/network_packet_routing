@@ -1,13 +1,13 @@
 # 📡 Network Packet Routing in Data Centers Using Greedy Algorithm
 
 ## 📘 Course & Instructor
-*Course:* 21CSC204J - Design and Analysis of Algorithms  
-*Instructor:* Dr. A. Prabhu Chakkaravarthy
+**Course:** 21CSC204J - Design and Analysis of Algorithms  
+**Instructor:** Dr. A. Prabhu Chakkaravarthy
 
 ---
 
 ## 🧠 Problem Statement
-In large-scale data centers like *Google Cloud, **AWS, or **Microsoft Azure, **millions of data packets* are transmitted every second.  
+In large-scale data centers like **Google Cloud**, **AWS**, or **Microsoft Azure**, *millions of data packets* are transmitted every second.  
 The goal is to efficiently *route packets from source to destination* while minimizing *latency* and *network congestion*.
 
 ---
@@ -39,10 +39,10 @@ The goal is to efficiently *route packets from source to destination* while mini
 - 📈 *Scalable* – can handle millions of packets simultaneously
 
 ### Steps Involved:
-1. *Initialization*: Represent network as a graph (routers = nodes, links = edges weighted by latency)
-2. *Local Best Choice: At each router, choose neighbor with **least latency* and *least congestion*
-3. *Move and Repeat*: Move the packet to selected router, repeat until destination
-4. *Real-Time Adaptation*: Continuously update link weights based on congestion and adjust routing dynamically
+1. **Initialization**: Represent network as a graph (routers = nodes, links = edges weighted by latency)  
+2. **Local Best Choice**: At each router, choose neighbor with *least latency* and *least congestion*  
+3. **Move and Repeat**: Move the packet to selected router, repeat until destination  
+4. **Real-Time Adaptation**: Continuously update link weights based on congestion and adjust routing dynamically
 
 ---
 
@@ -57,15 +57,15 @@ The goal is to efficiently *route packets from source to destination* while mini
 T(N) = T(N - 1) + O(N)
 
 ### Using Master’s Theorem:
-T(N) = aT(N/b) + O(N^d) a = 1, b = 1, d = 1 → O(N²)
+T(N) = aT(N/b) + O(N^d) where a = 1, b = 1, d = 1 → **O(N²)**
 
-### Final Time Complexity: *O(N²)* (Worst Case)
+### Final Time Complexity: **O(N²)** (Worst Case)
 
 ---
 
 ## 🧑‍💻 Contributors
-- *Mayukh Tilak* - RA2311030010068  
-- *Yashwanth Ch* - RA2311030010087  
-- *Anvita A* - RA2311030010092
+- **Mayukh Tilak** - RA2311030010068  
+- **Yashwanth Ch** - RA2311030010087  
+- **Anvita A** - RA2311030010092
 
-*Branch:* Computer Science and Engineering (SC) - Y1 Section
+**Branch:** Computer Science and Engineering (SC) - Y1 Section
